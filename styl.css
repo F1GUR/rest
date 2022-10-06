@@ -1,0 +1,120 @@
+body{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url(winnica.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ background-position-x: center;
+ background-position-y:calc(70%) ;
+ background-size: 100%;
+
+}
+
+header{
+    height: 50%;
+ margin-inline: 35%;
+    font-family: 'Times New Roman', Times, serif;
+    width: 30%;
+    font-size: 100%;
+  text-align: center;
+  background-color: darkred;
+  color: white;
+  font-weight: bolder;
+  font-style: oblique;
+  border-width: 2%;
+  border-style:dashed;
+  border-color: #e7e7e7;
+}
+.navi {
+    height: 100%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 99%;
+    text-align: center;
+    font-size: 120%;
+    border: 1px solid #e7e7e7;
+}
+
+.navi a:link, .navi a:visited{
+    text-decoration: none;
+    color: white;
+    padding: 1%;
+}
+.navi a:hover{
+    background-color:darkred;
+color: coral;
+}
+.navi ul {
+    padding: 1%;
+    background-color: darkred;
+}
+.navi li {
+    margin-inline: 2%;
+    display: inline;
+}
+
+main div{
+    font-size: 130%;
+    color: white;
+    margin: 1%;
+    padding: 1%;
+    float: left;
+    margin-inline: 1%;
+    background-color: darkred;
+}
+
+
+main .lewo, main .prawo{
+    width: 15%;
+}
+   
+main .srodek{
+    font-size: 150%;
+    width: 55%; 
+ text-align: center;
+}
+
+img{
+    width: 60%;
+}
+
+main .lewo{
+text-align: center;
+}
+
+main .prawo{
+    position: sticky;
+}
+
+main .main{
+    text-align: center;
+    width: 40%;
+    padding: 1%;
+}
+
+main .main img{
+    width: 40%;
+    height: auto;
+}
+
+iframe{
+    margin: 2%;
+    float: left;
+    width: 50%;
+    height: 30em;
+}
+
+.con{
+    font-size: 120%;
+    color: white;
+    text-align: center;
+    background-color: darkred;
+    width: 30%;
+    float: left;
+    margin: 5%;
+    padding: 2%;
+}
+
+
